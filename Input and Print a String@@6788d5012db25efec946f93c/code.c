@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char a[];
+    char a;
 
-    printf("");
-    scanf("%c",&a);
+    scanf("%s",&a);
 
-    printf("You enterde: %c",a);
+    printf("You enterde: %s",a);
 
     return 0;
 }
