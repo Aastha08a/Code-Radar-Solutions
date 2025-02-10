@@ -4,9 +4,9 @@ int main() {
     char a[50];
 
     printf("");
-    scanf("%s",&a);
+    scanf("%c",&a);
 
-    printf("You enterde: %s",a);
+    printf("You enterde: %c",a);
 
     return 0;
 }
