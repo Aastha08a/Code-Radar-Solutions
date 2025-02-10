@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c;
-    double avg;
+    double a,b,c,avg;
 
-    scanf("%d %d %d",&a,&b,&c);
+    scanf("%lf %lf %lf",&a,&b,&c);
     
     avg = (a+b+c)/3;
 
