@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, result;
+    int a, result;
 
-    scanf("%d %d", &a, &b);
+    scanf("%d", &a);
 
-    result = a >> b;
+    result = !a;
 
     printf("%d",result);
 
