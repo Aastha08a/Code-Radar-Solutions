@@ -8,6 +8,6 @@ int main(){
         printf("Even");
     }
     else{
-        prinf("Odd");
+        printf("Odd");
     }
 }
