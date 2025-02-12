@@ -8,7 +8,7 @@ int main(){
         printf("Uppercase");
     }
     else if(a>='a' && a<='z'){
-        printf("Lowercase")
+        printf("Lowercase");
     }
     else{
         printf("Not an alphabet");
