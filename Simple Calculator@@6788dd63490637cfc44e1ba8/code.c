@@ -7,21 +7,21 @@ int main(){
 
     char op;
 
-    scanf("%c",&op);
+    scanf(" %c",&op);
 
     if(op=='+'){
         result = a+b;
         printf("%d",a+b);
     }
-    else if(op='-'){
+    else if(op=='-'){
         result = a-b;
         printf("%d",result);
     }
-    else if(op='*'){
+    else if(op=='*'){
         result = a*b;
         printf("%d",result);
     }
-    else if(op='/'){
+    else if(op=='/'){
         result = a/b;
         printf("%d",result);
     }
