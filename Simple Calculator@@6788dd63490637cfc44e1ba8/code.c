@@ -10,22 +10,18 @@ int main(){
     scanf("%c",&op);
 
     if(op='+'){
-        result = a+b;
         printf("%d",a+b);
         break;
     }
     else if(op='-'){
-        result = a-b;
         printf("%d",a-b);
         break;
     }
     else if(op='*'){
-        result = a*b;
         printf("%d",a*b);
         break;
     }
     else if(op='/'){
-        result = a/b;
         printf("%d",a/b);
         break;
     }
