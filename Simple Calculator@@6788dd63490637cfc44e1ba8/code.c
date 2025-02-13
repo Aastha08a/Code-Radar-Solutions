@@ -6,7 +6,7 @@ int main() {
 
     printf("");
     scanf("%d %d", &a, &b);
-    scanf(" %c", &op);
+    scanf("%c", &op);
 
     if (op == '+') {
         printf("%d\n", a + b);
