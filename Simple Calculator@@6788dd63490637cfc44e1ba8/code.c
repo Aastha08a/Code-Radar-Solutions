@@ -8,19 +8,19 @@ int main() {
     scanf("%d %d %c", &a, &b, &op);
 
     if (op == '+') {
-        printf("%d\n", a + b);
+        printf("%d", a + b);
     } 
     else if (op == '-') {
-        printf("%d\n", a - b);
+        printf("%d", a - b);
     } 
     else if (op == '*') {
-        printf("%d\n", a * b);
+        printf("%", a * b);
     } 
     else if (op == '/') {
         if (b == 0) {
             printf("error");
         } else {
-            printf("%d\n", a / b);
+            printf("%d", a / b);
         }
     } 
     else {
