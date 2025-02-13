@@ -3,7 +3,7 @@
 int main(){
 
     int a,b,result;
-    scanf("%d %d",&a,&b);
+    scanf("%d %d/n",&a,&b);
 
     char op;
     scanf("%c",&op);
