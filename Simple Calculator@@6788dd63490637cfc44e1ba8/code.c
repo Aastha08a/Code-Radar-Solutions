@@ -9,6 +9,7 @@ int main() {
 
     if (op = '+'){
         printf("%d",a+b);
+        break;
     }
 
     if (op = '-'){
