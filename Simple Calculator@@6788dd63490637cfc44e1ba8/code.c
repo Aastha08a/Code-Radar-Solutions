@@ -10,15 +10,16 @@ int main() {
     if (op == '+') {
         printf("%d", a + b);
     } 
+
     else if (op == '-') {
         printf("%d", a - b);
     } 
+
     else if (op == '*') {
         printf("%d", a * b);
-    } 
-    else if (op == '/') {
-        printf("%f", a / b);
-    } 
+    }
+ 
+
     else {
         printf("Invalid operator\n");
     }
