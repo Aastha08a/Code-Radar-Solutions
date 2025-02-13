@@ -23,7 +23,7 @@ int main(){
     }
 
     else{
-        printf("Invalid operator")
+        printf("Invalid operator");
     }
 
     return 0;
