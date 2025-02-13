@@ -19,7 +19,7 @@ int main() {
     } 
     else if (op == '/') {
         if (b == 0) {
-            printf("Error");
+            printf("error");
         } else {
             printf("%d\n", a / b);
         }
