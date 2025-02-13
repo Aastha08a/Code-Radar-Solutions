@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int a,b,result;
+    int a,b,;
 
     scanf("%d %d",&a,&b);
 
@@ -9,20 +9,26 @@ int main(){
 
     scanf("%c",&op);
 
+    int i,j,k,l;
+
     if(op='+'){
-        printf("%d",a+b);
+        i = a+b;
+        printf("%d",i);
         break;
     }
     else if(op='-'){
-        printf("%d",a-b);
+        j = a-b;
+        printf("%d",j);
         break;
     }
     else if(op='*'){
-        printf("%d",a*b);
+        k = a*b;
+        printf("%d",k);
         break;
     }
     else if(op='/'){
-        printf("%d",a/b);
+        l = a/b;
+        printf("%d",l);
         break;
     }
 }
