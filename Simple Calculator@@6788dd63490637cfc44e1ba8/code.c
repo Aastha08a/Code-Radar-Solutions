@@ -12,17 +12,21 @@ int main(){
     if(op='+'){
         result = a+b;
         printf("%d",a+b);
+        break;
     }
     else if(op='-'){
         result = a-b;
-        printf("%d",result);
+        printf("%d",a-b);
+        break;
     }
     else if(op='*'){
         result = a*b;
-        printf("%d",result);
+        printf("%d",a*b);
+        break;
     }
     else if(op='/'){
         result = a/b;
-        printf("%d",result);
+        printf("%d",a/b);
+        break;
     }
 }
