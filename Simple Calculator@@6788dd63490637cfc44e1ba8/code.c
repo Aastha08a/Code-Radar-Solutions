@@ -9,7 +9,7 @@ int main(){
 
     scanf("%c",&op);
 
-    if(op=='+'){
+    if(op='+'){
         result = a+b;
         printf("%d",a+b);
     }
