@@ -7,23 +7,8 @@ int main() {
     scanf("%d %d", &a, &b);
     scanf("%c", &op); 
 
-    switch (op) {
-        case '+':
-            printf("%d",a + b);
-            break;
-    
-        case '-':
-            printf("%d",a - b);
-            break;
-
-        case '*':
-            printf("%d",a * b);
-            break;
-
-        case '/':
-            printf("%d",a / b);
-            break;
-
+    if (op == '+'){
+        printf("%d",a+b);
     }
 
     return 0;
