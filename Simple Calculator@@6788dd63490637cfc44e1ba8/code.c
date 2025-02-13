@@ -9,20 +9,22 @@ int main(){
 
     scanf("%c",&op);
 
-    if(op=='+'){
-        result = a+b;
-        printf("%d",a+b);
-    }
-    else if(op=='-'){
-        result = a-b;
-        printf("%d",result);
-    }
-    else if(op=='*'){
-        result = a*b;
-        printf("%d",result);
-    }
-    else if(op=='/'){
-        result = a/b;
-        printf("%d",result);
+    switch(op){
+        case '+':
+            printf("%d",a+b);
+            break;
+    
+        case '-':
+            printf("%d",a-b);
+            break;
+
+        case '*':
+            printf("%d",a*b);
+            break;
+
+        case '/':
+            printf("%d",a/b);
+            break;
+
     }
 }
