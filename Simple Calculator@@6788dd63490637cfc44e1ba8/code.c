@@ -3,13 +3,10 @@
 int main(){
 
     int a,b,result;
-    printf("");
-    scanf("%d %d",&a,&b);
-
     char op;
-    printf("");
-    scanf("\n%c",&op);
 
+    printf("");
+    scanf("%d %d %op",&a,&b,&op);
 
     if( op == '+'){
         printf("%d", a + b);
