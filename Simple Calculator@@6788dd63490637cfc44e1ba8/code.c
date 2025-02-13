@@ -5,7 +5,7 @@ int main() {
     char op;
 
     printf("");
-    scanf("%d %d %c",&a,&b,&op);
+    scanf("%d %d %c",&a,&b, &op);
 
     if (op == '+') {
         printf("%d", a + b);
@@ -21,8 +21,8 @@ int main() {
             printf("error");
         } else {
             printf("%d", a / b);
-        } 
-        
+        }
+    } 
     else {
         printf("Invalid operator\n");
     }
