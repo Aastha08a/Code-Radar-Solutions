@@ -11,5 +11,9 @@ int main() {
         printf("%d",a+b);
     }
 
+    if (op = '-'){
+        printf("%d",a-b);
+    }
+
     return 0;
 }
