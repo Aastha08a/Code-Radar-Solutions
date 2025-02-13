@@ -1,30 +1,30 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int a,b,result;
-
-    scanf("%d %d",&a,&b);
-
+int main() {
+    int a, b;
     char op;
 
-    scanf("%c",&op);
+    scanf("%d %d", &a, &b);
+    scanf(" %c", &op); 
 
-    switch(op){
+    switch (op) {
         case '+':
-            printf("%d",a+b);
+            printf("%d", a + b);
             break;
     
         case '-':
-            printf("%d",a-b);
+            printf("%d", a - b);
             break;
 
         case '*':
-            printf("%d",a*b);
+            printf("%d", a * b);
             break;
 
         case '/':
-            printf("%d",a/b);
+                printf("%d", a / b);
             break;
 
     }
+
+    return 0;
 }
