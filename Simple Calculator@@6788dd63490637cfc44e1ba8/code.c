@@ -8,7 +8,7 @@ int main(){
 
     char op;
     printf("");
-    scanf("%c",&op);
+    scanf("\n%c",&op);
 
 
     if( op == '+'){
