@@ -3,9 +3,11 @@
 int main(){
 
     int a,b,result;
-    scanf("%d %d/n",&a,&b);
+    printf("");
+    scanf("%d %d",&a,&b);
 
     char op;
+    printf("");
     scanf("%c",&op);
 
 
