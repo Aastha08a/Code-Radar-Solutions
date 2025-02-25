@@ -3,7 +3,6 @@
 int main(){
 
     int n;
-    printf("");
     scanf("%d",&n);
 
     for(int i=1; i<=n; i++){
@@ -11,10 +10,8 @@ int main(){
             printf(" ");
         }
 
-        for( int k=1; k<=n; k++){
-            for(int l=1; l<=2*k-1; l++){
+        for( int k=1; k<=(2*i-1); k++){
                 printf("*");
-            }
         }
 
         printf("\n");
